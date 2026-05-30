@@ -1,0 +1,34 @@
+# CYPHER Legal Documents — Jekyll Site Configuration
+
+title: CYPHER Legal
+description: Privacy Policy and Terms of Service for the CYPHER iOS application.
+theme: minima
+
+# URL configuration
+url: "https://ashtonsimz26-rgb.github.io"
+baseurl: "/cypher-legal"
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Minima theme settings
+minima:
+  skin: classic
+  date_format: "%B %-d, %Y"
+
+# Show on site
+show_excerpts: false
+
+# Default front matter for pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude these from the generated site
+exclude:
+  - README.md
+  - .gitignore
