@@ -106,7 +106,7 @@ You agree to indemnify, defend, and hold harmless the Developer from and against
 
 ## 13. Termination
 
-You may stop using the App at any time and may uninstall the App from your device. Uninstalling the App will permanently delete all local app data on your device, including your card collection, token balance, and subscription status. The Developer cannot recover this data.
+You may stop using the App at any time and may uninstall the App from your device. Uninstalling the App deletes the App's local data on your device, but does not by itself delete your account: your server-side account data (including your card collection, token balance, and trading history) remains until you delete your account, which you can do at any time in the App via Profile → Delete Account (see the Privacy Policy for exactly what deletion removes). Note that an account never signed in with Apple has no credentials — if you uninstall the App without signing in, that anonymous account and its collection become permanently unreachable, and the Developer cannot recover them.
 
 The Developer reserves the right to suspend or terminate your access to the App at any time, with or without cause, with or without notice, including without limitation if we believe you have violated these Terms. Upon termination, your right to use the App ends immediately. Sections of these Terms that by their nature should survive termination (including Sections 6, 9, 10, 11, 12, 14, 15, and 16) shall survive.
 

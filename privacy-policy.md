@@ -5,101 +5,104 @@ permalink: /privacy-policy/
 ---
 
 **Effective Date:** May 30, 2026
-**Last Updated:** May 30, 2026
+**Last Updated:** July 13, 2026
 
 ## 1. Introduction
 
 This Privacy Policy describes how CYPHER ("the App," "we," "us," or "our") handles information in connection with your use of the CYPHER mobile application. CYPHER is operated by Ashton Sims, an individual developer based in Boca Raton, Florida, USA.
 
-We have designed CYPHER with privacy as a core principle. We do not collect, transmit, or store any personal information about you. Please read this Policy carefully to understand our practices.
+CYPHER uses online accounts so that your card collection, token balance, and trades are real, secure, and consistent for everyone. That means some data about your account lives on our servers. This Policy explains exactly what that data is, what we deliberately do not collect, and how to delete everything.
 
-## 2. Information We Collect
+The short version:
 
-**We do not collect personal information.**
+- You can use CYPHER **without telling us who you are** — a new install gets an anonymous account.
+- If you choose **Sign in with Apple** (required only for trading), we receive your **email address** — and nothing else. We never ask for your name.
+- We store your **game data** (cards, tokens, packs, trades) on our servers so it can't be forged and trades are real.
+- We run **no ads, no third-party analytics, no tracking**, and we **never sell your data**.
+- You can **delete your account and all its data from inside the App**, any time.
 
-CYPHER is a fully local application. All app data — including your card collection, token balance, subscription status, set completion progress, vault customization preferences, and game settings — is stored exclusively on your device using Apple's standard local storage mechanisms (UserDefaults / @AppStorage). This data never leaves your device and is not transmitted to us or to any third party.
+## 2. Your Account: Anonymous by Default
 
-We do not collect or have access to:
+When you first open CYPHER, the App creates an **anonymous account** — a randomly generated account ID with no email, no name, no phone number, and no connection to your identity. Everything you do before signing in (opening packs, collecting cards, earning tokens) is tied to that anonymous ID only.
 
-- Your name, email address, phone number, or any contact information
-- Your physical or mailing address
-- Your date of birth, age, or demographic information
-- Your location (GPS, IP-based, or otherwise)
-- Your device identifiers (UDID, advertising ID, or similar)
-- Your usage patterns, session duration, or behavioral analytics
-- Your photos, contacts, or other on-device content
-- Any other personally identifiable information
+You can use most of CYPHER this way indefinitely. We could not identify you from an anonymous account even if asked to.
 
-We do not use cookies, tracking pixels, advertising identifiers, or any other tracking technology, because the App makes no network communication that could carry such information.
+**If you choose to sign in with Apple** (required to trade cards with other users, and to keep purchases restorable across devices):
 
-## 3. Apple Services and StoreKit
+- We receive your **email address** from Apple. If you use Apple's **Hide My Email** feature, we receive the private relay address instead of your real one — that works fine with CYPHER.
+- We do **not** request or receive your name. The App asks Apple for the email scope only.
+- Your existing anonymous collection and balance are attached to your signed-in account — nothing is lost.
+- A public **collector handle** (like "CosmicKick7788") is generated automatically for you. You do not choose it, it contains nothing personal, and it is the only thing other users ever see about you. Other users never see your email, name, or account ID.
 
-CYPHER offers in-app purchases (token packs) and auto-renewable subscriptions (CYPHER+, CYPHER PRO) processed through Apple's App Store using Apple's StoreKit framework. When you make a purchase:
+## 3. What We Store on Our Servers
 
-- **Apple processes the transaction.** Your payment information (credit card, Apple Pay, or other payment method) is provided to Apple, not to us. We never see, receive, or store your payment information.
-- **Apple manages your subscription.** You can view, manage, or cancel your subscription at any time through your device's Settings or directly within the App via the Manage Subscription option, which opens Apple's native subscription management interface.
-- **Apple's Privacy Policy applies to your transactions.** For information about how Apple handles purchase data, please review Apple's Privacy Policy at [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/).
+To make the card economy real (so cards, serial numbers, tokens, and trades can't be forged or duplicated), the following is stored in our database, keyed to your account ID:
 
-The only network communication associated with CYPHER occurs through Apple's StoreKit framework to validate purchases and subscriptions. This communication is operated by Apple, not by us, and CYPHER does not receive or store any payment or account information from these transactions.
+- **Account data:** your account ID; your email address (signed-in accounts only); your auto-generated collector handle; account timestamps (such as when the account was created and last signed in).
+- **Game data:** your card collection (which cards you own, their serial numbers, and how you got them), token balance and token transaction history, pack-opening history, set-completion rewards, and subscription entitlement status.
+- **Trading data:** your listings, your offers (including any token amounts attached to them), and completed trades.
+- **Safety data:** users you have blocked, and reports you submit about other users' conduct (including the optional note you attach to a report). Reports are visible only to the developer — never to other users, and never to the person reported.
+- **Purchase records:** when you buy tokens or a subscription, Apple sends the App a signed transaction receipt. We store the Apple **transaction ID, the product purchased, and the token amount credited** so a purchase is never credited twice. **We never see, receive, or store your payment details** — no card numbers, no billing address, no Apple ID password. Apple processes all payments.
 
-## 4. Data Stored Locally on Your Device
+Like almost any online service, our infrastructure also produces short-term **server logs** (which can include IP addresses and error messages) used only for security and debugging. We do not use these to profile you.
 
-The following information is stored locally on your device and is accessible only to you:
+## 4. What Stays Only on Your Device
 
-- Your card collection, including which cards you have collected and their serial numbers
-- Your token balance and transaction history within the App
-- Your subscription status (active subscription tier, if any)
-- Set completion progress and reward claims
-- Vault Showcase customization preferences
-- App settings and progress indicators (such as onboarding completion, daily reward claims)
+Some data is stored locally on your device (using Apple's standard app storage) and is not part of your server account: display caches of your collection and balance, app settings and progress flags (such as onboarding completion and daily-reward timing), Vault Showcase customization, and in-app notification history. Local data is removed when you delete the App.
 
-This data is not synchronized to iCloud or any other cloud service. **If you delete the App from your device, this data is permanently lost.** We do not have any ability to recover or restore your local data.
+## 5. What We Do NOT Collect or Do
 
-## 5. Children's Privacy
+We built CYPHER without the usual tracking machinery. The App contains **no third-party analytics SDKs, no crash-reporting SDKs, no advertising networks, and no social media SDKs** — its only server communication is with our own backend and with Apple. Specifically, we do not collect:
 
-CYPHER is rated 4+ on the App Store, meaning it is appropriate for users of all ages. However, **CYPHER is not directed at children under the age of 13**, and we do not knowingly collect personal information from children under 13. Because CYPHER does not collect any personal information from any user, this principle is satisfied by the App's design.
+- Your name or phone number
+- Your location (GPS, or any location tracking)
+- Your contacts, photos, or other on-device content
+- Your advertising identifier (IDFA), or any cross-app tracking identifier
+- Behavioral analytics or usage profiles
 
-If you are a parent or guardian and believe that your child has provided personal information to us, please contact us at the address below, although as described above, we do not collect such information from any user.
+We do not sell, rent, or share your personal information with anyone for marketing or advertising. We do not track you across other companies' apps or websites.
 
-## 6. International Users and Data Protection Rights
+## 6. Who Processes Your Data
 
-CYPHER is available worldwide. If you are located in the European Economic Area, United Kingdom, Switzerland, California, or another jurisdiction that provides data protection rights, the following applies:
+Two companies process data on our behalf, and we only use them for what's listed:
 
-**Because we do not collect personal information about you, we do not engage in personal data processing as defined by the General Data Protection Regulation (GDPR), the UK Data Protection Act, the California Consumer Privacy Act (CCPA), or comparable regulations.**
+- **Apple** (Sign in with Apple; App Store purchases and subscriptions). Apple handles all payment processing and gives us only the purchase receipt data described above. Apple's own Privacy Policy applies to what Apple collects: [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/)
+- **Supabase** (our database and authentication provider). Your account and game data described in Section 3 are stored in Supabase's cloud infrastructure in the **United States (US East, Northern Virginia)**. Supabase acts as our processor and, like any hosting provider, maintains standard operational logs.
 
-Despite this, you retain certain rights by law, including:
+Additionally, these legal pages are hosted on **GitHub Pages**; when you open them in your browser, GitHub receives the standard web-request data any website receives.
 
-- **The right to access** any personal information we hold about you (we do not hold any)
-- **The right to deletion** of any personal information we hold about you (we do not hold any)
-- **The right to data portability** (no data to port)
-- **The right to object** to processing of your personal information (no processing occurs)
-- **The right to lodge a complaint** with a supervisory authority in your jurisdiction
+There are no other third parties.
 
-To exercise any of these rights, or for any privacy-related inquiry, please contact us at the address below. We will respond to verified requests within the timeframe required by applicable law.
+## 7. How Long We Keep Data — and How to Delete Everything
 
-## 7. Third-Party Services
+Your account data is kept for as long as your account exists, so your collection stays yours.
 
-CYPHER does not use any third-party services that collect data about you. The App does not include:
+**You can permanently delete your account and its data at any time, from inside the App:** Profile → Delete Account. When you confirm, in one pass:
 
-- Analytics services (such as Google Analytics, Firebase Analytics, Mixpanel)
-- Crash reporting or monitoring services (such as Sentry, Crashlytics, Bugsnag)
-- Advertising networks or attribution services
-- Social media integrations or sharing SDKs
-- Marketing or push notification services
+- Any active trades are safely unwound (other users' escrowed tokens are refunded to them);
+- If you signed in with Apple, we ask Apple to revoke the App's connection to your Apple ID;
+- Your account and every record tied to it are deleted from our servers — profile, handle, email, wallet, token history, cards, pack history, rewards, subscription records, purchase records, listings, offers, blocks, and reports;
+- The App's local data on your device is wiped.
 
-The only Apple-provided framework that involves communication outside your device is StoreKit, as described in Section 3.
+Deletion is immediate and irreversible; we cannot recover a deleted account. Two things survive deletion, neither of which identifies you: **anonymous supply counters** (e.g., how many of a card's serial numbers have ever been issued — a number with no owner attached), and **cards you traded to other users before deleting** (those belong to their new owners; they carry no information about you).
 
-## 8. Links to Other Services
+Two practical notes: (1) an **anonymous** account has no credentials, so if you delete the App without signing in, that account and its collection become permanently unreachable — there is no way to recover it; (2) deleting the App from your device does not, by itself, delete your server account — use Delete Account for that.
 
-CYPHER may contain links to external websites or services, including links to this Privacy Policy and our Terms of Service. These links open in your device's default web browser (such as Safari) and are subject to the privacy practices of those sites. We are not responsible for the privacy practices of any third-party websites.
+## 8. Your Rights
 
-## 9. Changes to This Privacy Policy
+Wherever you live, we honor the same set of rights: you can **access** the data we hold about you, **delete** it (the in-app deletion above is the fastest way), **correct** it, or ask us to **export** it — by contacting us at the email below. We will respond to verified requests within the timeframe required by applicable law (and aim for within 30 days regardless). You also have the right to lodge a complaint with a supervisory authority in your jurisdiction.
 
-We may update this Privacy Policy from time to time to reflect changes in our practices, the App's features, or applicable law. When we make changes, we will update the "Last Updated" date at the top of this Policy and, where required by law, provide additional notice. Your continued use of the App after any changes constitutes your acceptance of the updated Policy. If you do not agree with the updated Policy, please discontinue use of the App.
+## 9. Children's Privacy
 
-If CYPHER's data practices change materially in the future (for example, if we add features that require user accounts, photo uploads, or other data collection), we will update this Policy and provide prominent notice within the App before such changes take effect.
+CYPHER's Terms of Service require users to be **at least 13 years old** (or older where local law sets a higher minimum for digital services). CYPHER is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe a child under 13 has created an account, contact us at the address below and we will delete the account and its data.
 
-## 10. Contact Us
+## 10. Changes to This Privacy Policy
+
+We may update this Privacy Policy as the App or the law changes. When we do, we will update the "Last Updated" date at the top and, for material changes, provide prominent notice in the App. Your continued use of the App after changes take effect constitutes acceptance of the updated Policy.
+
+*Note: this Policy was substantially rewritten on July 13, 2026 to describe the online account system (accounts, server-stored game data, and trading) that replaced the App's earlier fully-local design.*
+
+## 11. Contact Us
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or CYPHER's privacy practices, please contact us at:
 
