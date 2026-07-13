@@ -70,6 +70,9 @@ You agree not to:
 - Attempt to interfere with the App's operation, security mechanisms, or normal functioning
 - Use any automated tool, script, or bot to interact with the App
 - Use the App in any manner that violates applicable laws or regulations
+- Harass, abuse, threaten, or harm other users, or use the App's trading features to target, defraud, or intimidate any user
+
+**User Content and Moderation.** The only user-attributable content visible to other users in the App is your automatically generated collector handle and your trading activity (listings and offers); the App provides no free-text channel between users. You may report objectionable conduct from any listing or offer (Report), and you may block any user (Block) — blocked users' listings are hidden from you and new offers between you are prevented. We review reports promptly and, where warranted, will remove content (including cancelling listings), restrict trading, suspend, or terminate the accounts of offending users. To contact us about any user or content, email [cypherapp.privacy@gmail.com](mailto:cypherapp.privacy@gmail.com).
 
 Violation of these conduct rules may result in suspension or termination of your access to the App, without notice and without refund of any unused Virtual Items.
 
@@ -79,7 +82,7 @@ Violation of these conduct rules may result in suspension or termination of your
 
 **Sneaker Brands and Third-Party Marks.** The App features digital representations of real-world sneakers, including products manufactured or designed by Nike, Inc., Jordan Brand, Adidas AG, and other footwear companies. All sneaker brand names, model names, designs, trademarks, and trade dress referenced in the App are the property of their respective owners. The use of these names and designs within CYPHER is for editorial and identification purposes only and does not imply any affiliation with, endorsement by, or sponsorship from these companies. CYPHER is not affiliated with, authorized by, or endorsed by Nike, Inc., Jordan Brand, Adidas AG, or any other footwear manufacturer.
 
-**Your License to User Content.** CYPHER does not currently accept user-generated content of any kind. If future features of the App allow you to submit content, those features will be subject to additional terms that will be presented to you at that time.
+**Your License to User Content.** CYPHER does not accept free-form user-generated content. Your collector handle is generated automatically by the App (you do not choose or edit it), and your visible activity is limited to structured trading actions (listings and offers). If future features of the App allow you to submit content, those features will be subject to additional terms that will be presented to you at that time.
 
 ## 10. Disclaimer of Warranties
 
