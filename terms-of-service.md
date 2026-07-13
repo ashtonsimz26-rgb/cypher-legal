@@ -51,6 +51,8 @@ Cards, tokens, packs, set rewards, Vault Showcase customizations, and all other 
 
 The Developer reserves the right to modify, manage, control, suspend, or eliminate any Virtual Items at our discretion, including without limitation modifying pack contents, set rewards, rarity distributions, or subscription benefits, with reasonable notice where practical. You acknowledge that you have no property right, title, or interest in any Virtual Items, and that the Developer's modification or removal of Virtual Items shall not give rise to any claim for compensation or refund.
 
+**In-App Trading.** Where the App offers card trading between users, trades are final once completed and are exchanges of Virtual Items only. Some listings may be posted by CYPHER to seed marketplace liquidity.
+
 ## 7. Pack Opening and Random Outcomes
 
 Card packs in CYPHER contain cards drawn from defined card pools using documented probability distributions. The specific contents of any individual pack are determined at the time of opening based on these probabilities. Pack outcomes are random within these distributions, and individual results may vary.
