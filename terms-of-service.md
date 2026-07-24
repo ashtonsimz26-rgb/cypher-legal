@@ -5,7 +5,7 @@ permalink: /terms-of-service/
 ---
 
 **Effective Date:** May 30, 2026
-**Last Updated:** May 30, 2026
+**Last Updated:** July 24, 2026
 
 ## 1. Agreement to These Terms
 
